@@ -1,3 +1,5 @@
+use rust_core_utils;
 fn main() {
-    println!("Hello, world!");
+    let content = rust_core_utils::rat("src/lib.rs");
+    println!("{content}");
 }
